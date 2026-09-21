@@ -1,0 +1,6 @@
+import {createHmac,timingSafeEqual} from 'node:crypto';
+import {modules} from '../app/questions';
+export type Certificate={v:1;name:string;module:string;score:number;total:number;issued:string;nonce:string};
+function secret(){const s=process.env.CERTIFICATE_SECRET;if(!s||s.length<32)throw new Error('CERTIFICATE_SECRET must be configured (32+ characters)');return s}
+export function sign(c:Certificate){const data=Buffer.from(JSON.stringify(c)).toString('base64url');const mac=createHmac('sha256',secret()).update(data).digest('base64url');return data+'.'+mac}
+export function verify(token:string):Certificate|null{try{if(token.length>3500)return null;const [data,mac,...extra]=token.split('.');if(!data||!mac||extra.length)return null;const expected=createHmac('sha256',secret()).update(data).digest();const received=Buffer.from(mac,'base64url');if(received.length!==expected.length||!timingSafeEqual(received,expected))return null;const c=JSON.parse(Buffer.from(data,'base64url').toString('utf8')) as Certificate;if(c.v!==1||!modules.some(m=>m.id===c.module)||typeof c.name!=='string'||c.name.length>50||!Number.isInteger(c.score)||!Number.isInteger(c.total)||c.score<0||c.score>c.total||c.total!==5||typeof c.issued!=='string'||!Number.isFinite(Date.parse(c.issued)))return null;return c}catch{return null}}

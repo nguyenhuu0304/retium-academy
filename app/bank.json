@@ -1,0 +1,2419 @@
+{
+  "basics": [
+    {
+      "q": "What type of blockchain is Retium?",
+      "options": [
+        "Layer 2",
+        "Sidechain",
+        "Rollup",
+        "Layer 1"
+      ],
+      "answer": 3,
+      "why": "Retium describes itself as a multi-dimensional Layer-1 blockchain.",
+      "source": "https://retium.org/",
+      "code": "RTM-Q-001"
+    },
+    {
+      "q": "What is Retium built around mathematically?",
+      "options": [
+        "Random hashes",
+        "Prime meridians",
+        "Fibonacci numbers",
+        "Prime numbers"
+      ],
+      "answer": 3,
+      "why": "Retium uses prime-number mathematics as a foundation of its architecture.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-002"
+    },
+    {
+      "q": "What is Retium's network architecture called?",
+      "options": [
+        "HyperMesh",
+        "PrimeMesh",
+        "BlockDAG",
+        "ChainGrid"
+      ],
+      "answer": 1,
+      "why": "Retium calls its multi-directional mesh architecture PrimeMesh.",
+      "source": "https://retium.org/",
+      "code": "RTM-Q-003"
+    },
+    {
+      "q": "What language was the Retium protocol written from scratch in?",
+      "options": [
+        "Rust",
+        "Java",
+        "Python",
+        "Solidity"
+      ],
+      "answer": 0,
+      "why": "Retium states that its Layer-1 implementation was written from scratch in Rust.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-004"
+    },
+    {
+      "q": "Is Retium a fork of another blockchain?",
+      "options": [
+        "Only on testnet",
+        "No",
+        "Yes",
+        "Only its wallet"
+      ],
+      "answer": 1,
+      "why": "Retium says its protocol and architecture were built from scratch and are not a fork.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-005"
+    },
+    {
+      "q": "Which use case is explicitly listed for Retium?",
+      "options": [
+        "Payments",
+        "Email hosting",
+        "DNS registrar only",
+        "Video compression"
+      ],
+      "answer": 0,
+      "why": "Payments are a listed Retium use case.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-191"
+    },
+    {
+      "q": "Which entertainment use case is listed?",
+      "options": [
+        "FM radio",
+        "Printing",
+        "Gaming",
+        "File archiving"
+      ],
+      "answer": 2,
+      "why": "Gaming is a listed use case.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-192"
+    },
+    {
+      "q": "Why can Retium suit micropayments?",
+      "options": [
+        "Low weight-1 fees",
+        "Gas auctions",
+        "Long block waits",
+        "Mining subsidies"
+      ],
+      "answer": 0,
+      "why": "The use-cases page highlights weight-1 transactions for micropayments.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-193"
+    },
+    {
+      "q": "What can be recorded as lightweight social transactions?",
+      "options": [
+        "Passwords",
+        "Mining seeds",
+        "Tips and reactions",
+        "Private keys"
+      ],
+      "answer": 2,
+      "why": "Retium lists tips, follows, reactions, badges, and subscriptions as social use cases.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-194"
+    },
+    {
+      "q": "What kind of machine activity is mentioned for IoT?",
+      "options": [
+        "Mining races",
+        "Gas auctions",
+        "Machine-to-machine payments",
+        "Token inflation"
+      ],
+      "answer": 2,
+      "why": "Retium lists autonomous machine-to-machine payments for smart devices.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-195"
+    },
+    {
+      "q": "Which marketplace feature can RCP-1 support?",
+      "options": [
+        "Email filtering",
+        "Mining difficulty",
+        "Escrow",
+        "DNS routing"
+      ],
+      "answer": 2,
+      "why": "Commerce and marketplace workflows can include escrow and royalties.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-196"
+    },
+    {
+      "q": "What is the Retium Foundation focused on supporting?",
+      "options": [
+        "Only mining pools",
+        "Only token sales",
+        "Only exchanges",
+        "The protocol"
+      ],
+      "answer": 3,
+      "why": "The Foundation supports development, governance, infrastructure, and long-term stewardship of the protocol.",
+      "source": "https://retium.org/foundation",
+      "code": "RTM-Q-197"
+    },
+    {
+      "q": "Is the Retium Foundation the same entity as Retium AU?",
+      "options": [
+        "Only on testnet",
+        "Yes",
+        "No",
+        "Only for wallets"
+      ],
+      "answer": 2,
+      "why": "The Foundation page explicitly says it is separate from Retium AU.",
+      "source": "https://retium.org/foundation",
+      "code": "RTM-Q-198"
+    },
+    {
+      "q": "Does RTM confer ownership rights in the Foundation?",
+      "options": [
+        "Only to Pie holders",
+        "Only to validators",
+        "No",
+        "Yes"
+      ],
+      "answer": 2,
+      "why": "The Foundation disclaimer says RTM does not confer ownership rights.",
+      "source": "https://retium.org/foundation",
+      "code": "RTM-Q-199"
+    },
+    {
+      "q": "What should support long-term protocol growth according to the Foundation model?",
+      "options": [
+        "Private key sales",
+        "Mining subsidies",
+        "Real network activity",
+        "New inflation"
+      ],
+      "answer": 2,
+      "why": "The Foundation emphasizes real network activity supporting real network growth.",
+      "source": "https://retium.org/foundation",
+      "code": "RTM-Q-200"
+    }
+  ],
+  "mesh": [
+    {
+      "q": "How do most traditional blockchains arrange blocks?",
+      "options": [
+        "By prime factors",
+        "Linearly",
+        "In a 3D mesh",
+        "In random rings"
+      ],
+      "answer": 1,
+      "why": "Retium contrasts its mesh with the traditional one-block-at-a-time linear model.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-008"
+    },
+    {
+      "q": "Can Retium process multiple blocks at the same time?",
+      "options": [
+        "No",
+        "Yes",
+        "Only on wallets",
+        "Only NFTs"
+      ],
+      "answer": 1,
+      "why": "PrimeMesh allows multiple valid blocks to process transactions simultaneously.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-009"
+    },
+    {
+      "q": "What determines where blocks exist in Retium?",
+      "options": [
+        "Prime-number mathematics",
+        "Validator popularity",
+        "Gas bids",
+        "Random lottery"
+      ],
+      "answer": 0,
+      "why": "Prime-number mathematics determines valid block positions.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-010"
+    },
+    {
+      "q": "What is every Retium block ID derived from?",
+      "options": [
+        "Timestamp only",
+        "Prime factorization",
+        "Gas price",
+        "Wallet address"
+      ],
+      "answer": 1,
+      "why": "Every block ID is derived from prime factorization and mathematical composition.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-011"
+    },
+    {
+      "q": "What does each tick introduce into PrimeMesh?",
+      "options": [
+        "A new token",
+        "A new miner",
+        "A new wallet",
+        "A new prime"
+      ],
+      "answer": 3,
+      "why": "Each tick introduces a new prime number.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-012"
+    },
+    {
+      "q": "How are Retium blocks linked in the mesh?",
+      "options": [
+        "Shared prime factors",
+        "Mining pools",
+        "Gas auctions",
+        "Random leaders"
+      ],
+      "answer": 0,
+      "why": "Blocks connect through shared prime factors.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-013"
+    },
+    {
+      "q": "Is Retium's mesh structure deterministic?",
+      "options": [
+        "No",
+        "Only at night",
+        "Only for NFTs",
+        "Yes"
+      ],
+      "answer": 3,
+      "why": "The mesh structure follows deterministic mathematical rules.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-014"
+    },
+    {
+      "q": "Does Retium rely on randomness to determine valid block structure?",
+      "options": [
+        "Yes",
+        "Only on testnet",
+        "Only for Workers",
+        "No"
+      ],
+      "answer": 3,
+      "why": "Retium says there is no randomness, lottery, or luck in its block structure.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-015"
+    },
+    {
+      "q": "Can two nodes verify the expected mesh structure independently?",
+      "options": [
+        "Yes",
+        "Only the Foundation can",
+        "Only Keepers can",
+        "No"
+      ],
+      "answer": 0,
+      "why": "Anyone running the same calculations can independently verify which blocks should exist.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-016"
+    },
+    {
+      "q": "What helps Retium scale as usage grows?",
+      "options": [
+        "One global queue",
+        "Higher gas bids",
+        "Longer block times",
+        "Parallel block processing"
+      ],
+      "answer": 3,
+      "why": "Retium processes multiple blocks in parallel instead of one block at a time.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-017"
+    },
+    {
+      "q": "What happens to the mesh as new primes are introduced?",
+      "options": [
+        "It becomes linear",
+        "It resets",
+        "It grows",
+        "It stops routing"
+      ],
+      "answer": 2,
+      "why": "New primes generate new valid block IDs and expand the mesh.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-018"
+    },
+    {
+      "q": "What is Retium designed to avoid as a core bottleneck?",
+      "options": [
+        "One-block-at-a-time processing",
+        "Validator roles",
+        "Wallet encryption",
+        "WASM contracts"
+      ],
+      "answer": 0,
+      "why": "Retium replaces the linear one-block-at-a-time model with a multi-directional mesh.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-019"
+    },
+    {
+      "q": "What is a block's position based on?",
+      "options": [
+        "User votes",
+        "Prime relationships",
+        "Token price",
+        "Miner identity"
+      ],
+      "answer": 1,
+      "why": "A block's position and relationships are calculated from prime-number logic.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-020"
+    },
+    {
+      "q": "What does Retium call its approach to block geometry?",
+      "options": [
+        "Auction geometry",
+        "Social consensus",
+        "Mathematical structure",
+        "Random topology"
+      ],
+      "answer": 2,
+      "why": "Block positions are defined through mathematical prime-factor relationships.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-021"
+    },
+    {
+      "q": "What does 'Direct Routing' mean in Retium?",
+      "options": [
+        "Transactions go straight to blocks",
+        "Miners select fees",
+        "Users choose validators",
+        "Transactions wait in a mempool"
+      ],
+      "answer": 0,
+      "why": "Retium routes transactions directly to open blocks.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-022"
+    },
+    {
+      "q": "Does Retium use a traditional mempool?",
+      "options": [
+        "No",
+        "Only for contracts",
+        "Only for RTM",
+        "Yes"
+      ],
+      "answer": 0,
+      "why": "Transactions are routed directly into open blocks rather than waiting in a mempool.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-023"
+    },
+    {
+      "q": "What transaction ordering principle does Retium describe?",
+      "options": [
+        "First-come, first-served",
+        "Validator-choice first",
+        "Random order",
+        "Highest-fee first"
+      ],
+      "answer": 0,
+      "why": "The site describes transaction handling as first-come, first-served by design.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-024"
+    },
+    {
+      "q": "What is one core goal of Retium's original architecture?",
+      "options": [
+        "Higher gas auctions",
+        "Longer queues",
+        "Scalability",
+        "More mining"
+      ],
+      "answer": 2,
+      "why": "Retium's architecture is designed to address blockchain scalability from the ground up.",
+      "source": "https://retium.org/",
+      "code": "RTM-Q-025"
+    },
+    {
+      "q": "What consensus model does Retium use?",
+      "options": [
+        "Proof of Authority",
+        "Proof of History",
+        "Proof of Work",
+        "Proof of Math"
+      ],
+      "answer": 3,
+      "why": "Retium introduces Proof of Math (PoM).",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-026"
+    },
+    {
+      "q": "What does PoM stand for?",
+      "options": [
+        "Proof of Math",
+        "Proof of Memory",
+        "Protocol of Mesh",
+        "Proof of Mining"
+      ],
+      "answer": 0,
+      "why": "PoM is Retium's abbreviation for Proof of Math.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-027"
+    },
+    {
+      "q": "In Proof of Math, what determines which blocks can exist?",
+      "options": [
+        "Random leader election",
+        "Energy use",
+        "Token ownership",
+        "Mathematics"
+      ],
+      "answer": 3,
+      "why": "Retium says mathematics determines which blocks can exist.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-028"
+    },
+    {
+      "q": "In Proof of Work, block structure is associated with what?",
+      "options": [
+        "Pie staking",
+        "Energy expenditure",
+        "Prime factors",
+        "RCP-1"
+      ],
+      "answer": 1,
+      "why": "Retium contrasts PoW with PoM by describing PoW as energy-driven.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-029"
+    },
+    {
+      "q": "In Proof of Stake, block structure is influenced by what?",
+      "options": [
+        "Filesystem access",
+        "WASM fuel",
+        "Prime factorization",
+        "Token ownership"
+      ],
+      "answer": 3,
+      "why": "Retium contrasts PoS with PoM by describing PoS as influenced by stake ownership.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-030"
+    },
+    {
+      "q": "Do Retium validators choose the mathematical block structure?",
+      "options": [
+        "Only Suits do",
+        "No",
+        "Only Workers do",
+        "Yes"
+      ],
+      "answer": 1,
+      "why": "Validators execute what the deterministic math dictates.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-031"
+    },
+    {
+      "q": "Does Proof of Math use a mining race?",
+      "options": [
+        "Only for NFTs",
+        "Only on DevNet",
+        "No",
+        "Yes"
+      ],
+      "answer": 2,
+      "why": "Retium states there is no mining race.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-032"
+    },
+    {
+      "q": "Does Proof of Math use leader election for block structure?",
+      "options": [
+        "Every tick",
+        "Yes",
+        "Only for Keepers",
+        "No"
+      ],
+      "answer": 3,
+      "why": "Retium states there is no leader election in its PoM block structure.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-033"
+    },
+    {
+      "q": "Does Retium use a longest-chain rule?",
+      "options": [
+        "No",
+        "Only after forks",
+        "Only on testnet",
+        "Yes"
+      ],
+      "answer": 0,
+      "why": "Retium does not use a longest-chain rule.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-034"
+    },
+    {
+      "q": "How does Retium describe its finality model?",
+      "options": [
+        "Auction-based",
+        "Deterministic",
+        "Mining-based",
+        "Probabilistic"
+      ],
+      "answer": 1,
+      "why": "Retium contrasts its deterministic finality with probabilistic models.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-035"
+    },
+    {
+      "q": "What makes competing block positions invalid in Retium?",
+      "options": [
+        "Prime-number rules",
+        "Slow miners",
+        "Wallet limits",
+        "Low gas"
+      ],
+      "answer": 0,
+      "why": "Each valid block position is uniquely constrained by prime-number relationships.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-036"
+    },
+    {
+      "q": "How does Retium describe fork risk under Proof of Math?",
+      "options": [
+        "No fork risk",
+        "Forks every tick",
+        "High fork risk",
+        "Random fork risk"
+      ],
+      "answer": 0,
+      "why": "Retium states forks are mathematically impossible under its block-structure rules.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-037"
+    },
+    {
+      "q": "What do validators do after math determines valid structure?",
+      "options": [
+        "Auction it",
+        "Mine alternatives",
+        "Randomize it",
+        "Execute it"
+      ],
+      "answer": 3,
+      "why": "Validators execute what the deterministic math dictates.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-038"
+    },
+    {
+      "q": "What information about a block is calculated deterministically?",
+      "options": [
+        "Position and parent links",
+        "NFT royalty only",
+        "Token price and supply",
+        "Wallet password"
+      ],
+      "answer": 0,
+      "why": "Retium says position, parent links, and relationships are calculated deterministically.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-039"
+    },
+    {
+      "q": "What creates a verifiable network structure in Retium?",
+      "options": [
+        "Private Foundation votes",
+        "Same mathematical calculations",
+        "Mining difficulty",
+        "Gas bidding"
+      ],
+      "answer": 1,
+      "why": "Independent nodes can derive the same structure from the same math.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-040"
+    },
+    {
+      "q": "What property replaces probabilistic block selection in Retium?",
+      "options": [
+        "Mining luck",
+        "Deterministic math",
+        "Random staking",
+        "High fees"
+      ],
+      "answer": 1,
+      "why": "Retium uses mathematical determinism rather than probabilistic block selection.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-041"
+    },
+    {
+      "q": "What does Retium say is absent from block creation logic?",
+      "options": [
+        "Primes",
+        "Math",
+        "Determinism",
+        "Luck"
+      ],
+      "answer": 3,
+      "why": "The architecture page explicitly says there is no randomness, lottery, or luck.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-042"
+    },
+    {
+      "q": "What is the key input to block identity in PrimeMesh?",
+      "options": [
+        "Prime factors",
+        "Validator names",
+        "Wallet age",
+        "Gas bids"
+      ],
+      "answer": 0,
+      "why": "Block IDs are derived from prime-number factorization.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-043"
+    },
+    {
+      "q": "What can anyone independently calculate in Retium?",
+      "options": [
+        "Which blocks should exist",
+        "User passwords",
+        "Private keys",
+        "RTM market price"
+      ],
+      "answer": 0,
+      "why": "Anyone can run the same calculations to verify expected block existence.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-044"
+    },
+    {
+      "q": "What kind of guarantee does Retium emphasize for finality?",
+      "options": [
+        "Miner reputation",
+        "Mathematical certainty",
+        "Social approval",
+        "Price stability"
+      ],
+      "answer": 1,
+      "why": "Retium presents deterministic finality as mathematical certainty rather than probabilistic guarantees.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-045"
+    },
+    {
+      "q": "Does Retium copy Ethereum's consensus model?",
+      "options": [
+        "Only for NFTs",
+        "No",
+        "Only for staking",
+        "Yes"
+      ],
+      "answer": 1,
+      "why": "Retium says its architecture and consensus were designed specifically for Retium.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-046"
+    },
+    {
+      "q": "What separates Retium from a conventional single-chain model?",
+      "options": [
+        "More miners",
+        "Multi-directional mesh",
+        "Longer blocks",
+        "Central server"
+      ],
+      "answer": 1,
+      "why": "PrimeMesh is multi-directional rather than a single linear chain.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-047"
+    },
+    {
+      "q": "What enables many valid blocks to coexist?",
+      "options": [
+        "Mining pools",
+        "Random voting",
+        "Prime-linking rules",
+        "Gas auctions"
+      ],
+      "answer": 2,
+      "why": "Prime-linking relationships allow multiple valid blocks to exist simultaneously.",
+      "source": "https://retium.org/",
+      "code": "RTM-Q-048"
+    },
+    {
+      "q": "What must two honest nodes derive when using the same Retium calculations?",
+      "options": [
+        "The same valid structure",
+        "Different fees",
+        "Different supply",
+        "Different forks"
+      ],
+      "answer": 0,
+      "why": "Deterministic calculations should lead nodes to the same valid mesh structure.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-049"
+    },
+    {
+      "q": "Which Retium property is intended to make block structure verifiable?",
+      "options": [
+        "Mining luck",
+        "Auction bidding",
+        "Determinism",
+        "Inflation"
+      ],
+      "answer": 2,
+      "why": "Determinism makes the expected block structure independently verifiable.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-050"
+    }
+  ],
+  "routing": [
+    {
+      "q": "Where is a new Retium transaction routed?",
+      "options": [
+        "A mempool",
+        "An open block",
+        "The Treasury",
+        "A mining pool"
+      ],
+      "answer": 1,
+      "why": "Transactions are routed directly into open blocks.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-086"
+    },
+    {
+      "q": "What component routes transactions to blocks?",
+      "options": [
+        "Safehouse",
+        "Router",
+        "Foundation",
+        "Keeper"
+      ],
+      "answer": 1,
+      "why": "The Router assigns transactions directly to open blocks.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-087"
+    },
+    {
+      "q": "How many blocks are typically open at once?",
+      "options": [
+        "500+",
+        "50–100",
+        "3–20",
+        "1 only"
+      ],
+      "answer": 2,
+      "why": "Retium says typically 3 to 20 blocks are open depending on traffic.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-088"
+    },
+    {
+      "q": "What adjusts the number of open blocks?",
+      "options": [
+        "RCP-1",
+        "RouterHelper",
+        "Safehouse",
+        "RotationLog"
+      ],
+      "answer": 1,
+      "why": "RouterHelper dynamically adjusts open-block count.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-089"
+    },
+    {
+      "q": "What does Retium use to balance computational load when routing?",
+      "options": [
+        "Transaction weight",
+        "Token price",
+        "User follower count",
+        "Validator age"
+      ],
+      "answer": 0,
+      "why": "Transactions are assigned to blocks by weight to balance computational load.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-090"
+    },
+    {
+      "q": "Does Retium prioritize transactions through gas bidding?",
+      "options": [
+        "Only NFTs",
+        "Only contracts",
+        "Yes",
+        "No"
+      ],
+      "answer": 3,
+      "why": "Retium uses weight-based fees and does not use gas auctions.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-091"
+    },
+    {
+      "q": "What attack vector is reduced by having no mempool?",
+      "options": [
+        "Phishing email",
+        "Password reuse",
+        "Front-running",
+        "DNS spoofing only"
+      ],
+      "answer": 2,
+      "why": "Retium says no mempool removes mempool-based front-running opportunities.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-092"
+    },
+    {
+      "q": "What status does a transaction reach immediately after execution?",
+      "options": [
+        "SoftFinal",
+        "Mined",
+        "Archived",
+        "HardFinal"
+      ],
+      "answer": 0,
+      "why": "Transactions reach SoftFinal immediately after execution.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-093"
+    },
+    {
+      "q": "Who cross-validates transaction state after SoftFinal?",
+      "options": [
+        "Treasury",
+        "Suits",
+        "Workers",
+        "Foundation"
+      ],
+      "answer": 2,
+      "why": "Workers cross-validate the post-execution state.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-094"
+    },
+    {
+      "q": "What status follows successful Worker consensus?",
+      "options": [
+        "Mempool",
+        "HardFinal",
+        "Pending",
+        "Draft"
+      ],
+      "answer": 1,
+      "why": "After Worker consensus, the transaction reaches HardFinal confirmation.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-095"
+    },
+    {
+      "q": "When do pending receiver funds become spendable?",
+      "options": [
+        "Before execution",
+        "Only after a token sale",
+        "Before routing",
+        "After consensus"
+      ],
+      "answer": 3,
+      "why": "Once consensus is reached, pending funds become spendable.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-096"
+    },
+    {
+      "q": "How does Retium describe a HardFinal transaction?",
+      "options": [
+        "Unexecuted",
+        "Pending forever",
+        "Cryptographically irreversible",
+        "Randomly reversible"
+      ],
+      "answer": 2,
+      "why": "HardFinal is described as permanent and cryptographically irreversible.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-097"
+    },
+    {
+      "q": "Is transaction finality separate from block finality?",
+      "options": [
+        "Only for Keepers",
+        "Yes",
+        "No",
+        "Only on NFTs"
+      ],
+      "answer": 1,
+      "why": "Retium separates transaction confirmation from later block finality.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-098"
+    },
+    {
+      "q": "Which role handles block finality after transaction confirmation?",
+      "options": [
+        "Wallet users",
+        "Faucet",
+        "Suits",
+        "Workers"
+      ],
+      "answer": 2,
+      "why": "Block finality is handled later by Suits.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-099"
+    },
+    {
+      "q": "What is one benefit of separating transaction and block finality?",
+      "options": [
+        "More gas auctions",
+        "More inflation",
+        "Faster user confirmation",
+        "More forks"
+      ],
+      "answer": 2,
+      "why": "Transactions can confirm quickly while the block continues through its lifecycle.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-100"
+    },
+    {
+      "q": "What is the block lifecycle sequence shown by Retium?",
+      "options": [
+        "Open → Planned → Burned",
+        "Queued → Auctioned → Mined",
+        "Mined → Forked → Sold",
+        "Planned → Open → Sealed"
+      ],
+      "answer": 3,
+      "why": "Retium shows blocks moving from Planned to Open to Sealed.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-101"
+    },
+    {
+      "q": "What advances only after the current mesh phase is finalized?",
+      "options": [
+        "The network tick",
+        "Wallet password",
+        "RTM supply",
+        "NFT royalty"
+      ],
+      "answer": 0,
+      "why": "The network advances to the next tick after the current phase is finalized.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-102"
+    },
+    {
+      "q": "What fee model does Retium use?",
+      "options": [
+        "Weight-based",
+        "Auction-based",
+        "Random",
+        "Miner-bid"
+      ],
+      "answer": 0,
+      "why": "Retium uses a weight-based fee model.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-103"
+    },
+    {
+      "q": "What is Retium's transaction weight range?",
+      "options": [
+        "1–3",
+        "1–10",
+        "0–100",
+        "1–5"
+      ],
+      "answer": 3,
+      "why": "Transactions and contracts use weights from 1 to 5.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-104"
+    },
+    {
+      "q": "Does Retium use gas auctions?",
+      "options": [
+        "Only for validators",
+        "No",
+        "Yes",
+        "Only for NFTs"
+      ],
+      "answer": 1,
+      "why": "There are no gas auctions.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-105"
+    },
+    {
+      "q": "Does Retium use bidding wars for fees?",
+      "options": [
+        "Only for contracts",
+        "Only at peak traffic",
+        "Yes",
+        "No"
+      ],
+      "answer": 3,
+      "why": "Retium says there are no bidding wars.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-106"
+    },
+    {
+      "q": "What percentage of transaction fees is burned?",
+      "options": [
+        "1%",
+        "0%",
+        "5.5%",
+        "10%"
+      ],
+      "answer": 0,
+      "why": "One percent of fees is burned.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-107"
+    },
+    {
+      "q": "What percentage remains after the 1% burn?",
+      "options": [
+        "50%",
+        "90%",
+        "95%",
+        "99%"
+      ],
+      "answer": 3,
+      "why": "After the 1% burn, 99% remains for network distribution.",
+      "source": "https://retium.org/understand",
+      "code": "RTM-Q-108"
+    },
+    {
+      "q": "What is the USD fee for a weight-1 simple transfer?",
+      "options": [
+        "$0.45",
+        "$0.05",
+        "$0.01",
+        "$0.10"
+      ],
+      "answer": 2,
+      "why": "Tokenomics lists weight-1 simple transfers at one cent.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-109"
+    },
+    {
+      "q": "What is the USD fee for weight 2?",
+      "options": [
+        "$0.05",
+        "$0.01",
+        "$0.25",
+        "$0.10"
+      ],
+      "answer": 0,
+      "why": "Tokenomics lists weight 2 at five cents.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-110"
+    },
+    {
+      "q": "What is the USD fee for weight 3?",
+      "options": [
+        "$0.10",
+        "$0.45",
+        "$0.25",
+        "$0.01"
+      ],
+      "answer": 0,
+      "why": "Tokenomics lists weight 3 standard contracts at ten cents.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-111"
+    },
+    {
+      "q": "What is the USD fee for weight 4?",
+      "options": [
+        "$0.05",
+        "$0.10",
+        "$0.45",
+        "$0.25"
+      ],
+      "answer": 3,
+      "why": "Tokenomics lists weight 4 complex DeFi at twenty-five cents.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-112"
+    },
+    {
+      "q": "What priority increase is Level 1?",
+      "options": [
+        "+50%",
+        "+5%",
+        "+20%",
+        "+10%"
+      ],
+      "answer": 3,
+      "why": "Retium lists optional Level 1 priority credits at +10%.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-114"
+    },
+    {
+      "q": "What priority increase is Level 2?",
+      "options": [
+        "+10%",
+        "+100%",
+        "+25%",
+        "+20%"
+      ],
+      "answer": 3,
+      "why": "Retium lists optional Level 2 priority credits at +20%.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-115"
+    }
+  ],
+  "validators": [
+    {
+      "q": "How many validator roles does Retium define?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "why": "Retium defines Keepers, Workers, and Suits.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-051"
+    },
+    {
+      "q": "Which role validates individual transactions?",
+      "options": [
+        "Keeper",
+        "Router",
+        "Suit",
+        "Worker"
+      ],
+      "answer": 3,
+      "why": "Workers validate transactions before they become final or rejected.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-052"
+    },
+    {
+      "q": "Which role plans blocks?",
+      "options": [
+        "Keeper",
+        "Worker",
+        "Suit",
+        "Wallet"
+      ],
+      "answer": 0,
+      "why": "Keepers plan blocks.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-053"
+    },
+    {
+      "q": "Which role stores the full mesh state?",
+      "options": [
+        "Keeper",
+        "Suit",
+        "Worker",
+        "Matchmaker"
+      ],
+      "answer": 0,
+      "why": "Keepers store the full mesh state.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-054"
+    },
+    {
+      "q": "Which role manages tick advancement?",
+      "options": [
+        "Worker",
+        "Suit",
+        "Keeper",
+        "Router"
+      ],
+      "answer": 2,
+      "why": "Keepers manage tick advancement.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-055"
+    },
+    {
+      "q": "Which role coordinates block finality?",
+      "options": [
+        "Suit",
+        "Keeper",
+        "Worker",
+        "Wallet"
+      ],
+      "answer": 0,
+      "why": "Suits coordinate block finality.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-056"
+    },
+    {
+      "q": "Which role verifies deterministic Keeper consensus?",
+      "options": [
+        "Treasury",
+        "Router",
+        "Worker",
+        "Suit"
+      ],
+      "answer": 3,
+      "why": "Suits verify deterministic Keeper consensus.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-057"
+    },
+    {
+      "q": "Which role synchronizes the network on each block verdict?",
+      "options": [
+        "Worker",
+        "Wallet",
+        "Faucet",
+        "Suit"
+      ],
+      "answer": 3,
+      "why": "Suits synchronize the network on each block's verdict.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-058"
+    },
+    {
+      "q": "Which validator role is the lightest by design?",
+      "options": [
+        "Worker",
+        "Suit",
+        "Keeper",
+        "Foundation"
+      ],
+      "answer": 0,
+      "why": "Workers are the lightest validator role.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-059"
+    },
+    {
+      "q": "Are Workers designed to be stateless?",
+      "options": [
+        "Only Suits",
+        "Only Keepers",
+        "Yes",
+        "No"
+      ],
+      "answer": 2,
+      "why": "Workers are described as stateless and holding current vote assignments only.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-060"
+    },
+    {
+      "q": "Which role has the heaviest hardware requirements?",
+      "options": [
+        "Keeper",
+        "Suit",
+        "Router",
+        "Worker"
+      ],
+      "answer": 0,
+      "why": "Keepers hold full mesh state and run on GPU-capable server hardware.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-061"
+    },
+    {
+      "q": "What level of hardware does a Suit require?",
+      "options": [
+        "No compute",
+        "Moderate",
+        "GPU-heavy only",
+        "Lightest"
+      ],
+      "answer": 1,
+      "why": "Suits have moderate compute and storage requirements.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-062"
+    },
+    {
+      "q": "What devices could Workers potentially run on?",
+      "options": [
+        "Only ASICs",
+        "Only supercomputers",
+        "Only mainframes",
+        "Phones and laptops"
+      ],
+      "answer": 3,
+      "why": "Retium says Workers could potentially run on phones, tablets, and laptops.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-063"
+    },
+    {
+      "q": "How many Workers are assigned to check a transaction?",
+      "options": [
+        "10",
+        "3",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "why": "The Matchmaker assigns five Workers.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-069"
+    },
+    {
+      "q": "What is the minimum Worker quorum for transaction-level finality?",
+      "options": [
+        "3 of 5",
+        "1 of 5",
+        "5 of 5",
+        "2 of 5"
+      ],
+      "answer": 0,
+      "why": "At least three of the five Workers must approve.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-070"
+    },
+    {
+      "q": "What component assigns Workers to transactions?",
+      "options": [
+        "Treasury",
+        "RVM",
+        "Safehouse",
+        "Matchmaker"
+      ],
+      "answer": 3,
+      "why": "The Matchmaker assigns Workers dynamically.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-071"
+    },
+    {
+      "q": "How many Suits are assigned to each sealed block?",
+      "options": [
+        "10",
+        "5",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "why": "Five independent Suits are assigned to each sealed block.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-072"
+    },
+    {
+      "q": "What do Keepers do after a block is sealed?",
+      "options": [
+        "Create wallets",
+        "Mine RTM",
+        "Recompute consensus",
+        "Set gas bids"
+      ],
+      "answer": 2,
+      "why": "Keepers independently recompute the same mathematical result from the same inputs.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-073"
+    },
+    {
+      "q": "What level of Keeper agreement is required for cryptographic consensus?",
+      "options": [
+        "One Suit",
+        "One Keeper",
+        "A majority",
+        "All Workers"
+      ],
+      "answer": 2,
+      "why": "A majority of Keepers must agree.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-074"
+    },
+    {
+      "q": "What does a Suit broadcast after required Keeper consensus?",
+      "options": [
+        "Gas auction",
+        "Private key",
+        "New token",
+        "Finality verdict"
+      ],
+      "answer": 3,
+      "why": "A Suit broadcasts the finality verdict.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-075"
+    },
+    {
+      "q": "What happens to a block after the Suit finality verdict?",
+      "options": [
+        "It becomes HardFinal",
+        "It becomes SoftFinal only",
+        "It returns to mempool",
+        "It is mined again"
+      ],
+      "answer": 0,
+      "why": "After the finality verdict, the sealed block becomes HardFinal.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-076"
+    },
+    {
+      "q": "Are blocks sealed only when they are full?",
+      "options": [
+        "Only on weekends",
+        "Only by Workers",
+        "No",
+        "Yes"
+      ],
+      "answer": 2,
+      "why": "Blocks are sealed on a fixed cycle, not only when full.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-077"
+    },
+    {
+      "q": "Why are blocks sealed on a fixed cycle?",
+      "options": [
+        "Predictable network rhythm",
+        "To raise gas bids",
+        "To create forks",
+        "To increase inflation"
+      ],
+      "answer": 0,
+      "why": "Fixed-cycle sealing helps keep network rhythm predictable.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-078"
+    },
+    {
+      "q": "What token is minted when RTM is staked?",
+      "options": [
+        "WASM",
+        "rUSD",
+        "RCP",
+        "Pie"
+      ],
+      "answer": 3,
+      "why": "Staking RTM mints an equal amount of Pie.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-136"
+    },
+    {
+      "q": "At what ratio is Pie minted for staked RTM?",
+      "options": [
+        "1:10",
+        "2:1",
+        "10:1",
+        "1:1"
+      ],
+      "answer": 3,
+      "why": "Pie is minted 1:1 with staked RTM.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-137"
+    },
+    {
+      "q": "What happens to Pie when RTM is unstaked?",
+      "options": [
+        "It is burned",
+        "It becomes BTC",
+        "It doubles",
+        "It is sold"
+      ],
+      "answer": 0,
+      "why": "Corresponding Pie is burned on unstake.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-138"
+    },
+    {
+      "q": "What backs each Pie token?",
+      "options": [
+        "One staked RTM",
+        "One validator PC",
+        "One NFT",
+        "One rUSD only"
+      ],
+      "answer": 0,
+      "why": "Every Pie is backed by exactly one RTM locked in staking.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-139"
+    },
+    {
+      "q": "What does Pie represent?",
+      "options": [
+        "Mining difficulty",
+        "Block randomness",
+        "Wallet password",
+        "Validator commitment"
+      ],
+      "answer": 3,
+      "why": "Pie represents validator commitment.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-140"
+    },
+    {
+      "q": "Does Pie support delegation?",
+      "options": [
+        "Only test coins",
+        "Yes",
+        "Only NFTs",
+        "No"
+      ],
+      "answer": 1,
+      "why": "The tokenomics page says Pie supports delegation.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-141"
+    }
+  ],
+  "wallet": [
+    {
+      "q": "What is Retium's native coin?",
+      "options": [
+        "Pie",
+        "ETH",
+        "RTM",
+        "rUSD"
+      ],
+      "answer": 2,
+      "why": "RTM is the native coin of the Retium network.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-116"
+    },
+    {
+      "q": "What is RTM used to pay?",
+      "options": [
+        "Transaction fees",
+        "Validator passwords",
+        "Email fees",
+        "Domain rent only"
+      ],
+      "answer": 0,
+      "why": "RTM is used for network transaction fees.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-117"
+    },
+    {
+      "q": "Can RTM be used for smart contract interactions?",
+      "options": [
+        "Yes",
+        "Only on NFTs",
+        "Only on wallets",
+        "No"
+      ],
+      "answer": 0,
+      "why": "RTM is used for smart contract interactions.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-119"
+    },
+    {
+      "q": "Can RTM be used for value transfer?",
+      "options": [
+        "Yes",
+        "Only by the Foundation",
+        "Only by Keepers",
+        "No"
+      ],
+      "answer": 0,
+      "why": "Value transfer is one of RTM's core uses.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-120"
+    },
+    {
+      "q": "What is RTM's fixed total supply?",
+      "options": [
+        "10 billion",
+        "1 billion",
+        "100 million",
+        "500 million"
+      ],
+      "answer": 1,
+      "why": "Total supply is fixed at 1,000,000,000 RTM.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-121"
+    },
+    {
+      "q": "How many decimal places does RTM use?",
+      "options": [
+        "24",
+        "18",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "why": "Each RTM has 18 decimal places.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-122"
+    },
+    {
+      "q": "What is Retium's inflation rate?",
+      "options": [
+        "0%",
+        "5%",
+        "1%",
+        "10%"
+      ],
+      "answer": 0,
+      "why": "Retium describes permanent 0% inflation.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-123"
+    },
+    {
+      "q": "Can RTM supply be increased after genesis?",
+      "options": [
+        "No",
+        "Yes",
+        "By governance vote",
+        "By emergency mint"
+      ],
+      "answer": 0,
+      "why": "The current tokenomics page says there is no minting beyond genesis.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-124"
+    },
+    {
+      "q": "Can an admin key increase RTM supply?",
+      "options": [
+        "Only once",
+        "Yes",
+        "No",
+        "Only on testnet"
+      ],
+      "answer": 2,
+      "why": "No admin key can increase the fixed RTM supply.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-125"
+    },
+    {
+      "q": "Can a governance vote increase RTM supply?",
+      "options": [
+        "Only for validators",
+        "No",
+        "Every year",
+        "Yes"
+      ],
+      "answer": 1,
+      "why": "The tokenomics page says governance cannot increase supply.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-126"
+    },
+    {
+      "q": "How much RTM is allocated to the team?",
+      "options": [
+        "10%",
+        "5%",
+        "None",
+        "20%"
+      ],
+      "answer": 2,
+      "why": "Retium states there is no team token allocation.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-127"
+    },
+    {
+      "q": "How much RTM is allocated to early investors?",
+      "options": [
+        "5%",
+        "None",
+        "25%",
+        "15%"
+      ],
+      "answer": 1,
+      "why": "Retium states there is no early-investor token allocation.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-128"
+    },
+    {
+      "q": "How much RTM is allocated to advisers or partners?",
+      "options": [
+        "None",
+        "2%",
+        "30%",
+        "10%"
+      ],
+      "answer": 0,
+      "why": "Retium states there is no allocation for advisers or partners.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-129"
+    },
+    {
+      "q": "Where does almost the entire RTM supply initially sit?",
+      "options": [
+        "NFT launchpad",
+        "Safehouse",
+        "Treasury",
+        "Mempool"
+      ],
+      "answer": 1,
+      "why": "Almost the entire supply sits in the Safehouse.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-130"
+    },
+    {
+      "q": "What is the Safehouse?",
+      "options": [
+        "Wallet extension",
+        "Mining pool",
+        "On-chain reserve",
+        "Validator role"
+      ],
+      "answer": 2,
+      "why": "Retium describes the Safehouse as an on-chain reserve.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-131"
+    },
+    {
+      "q": "What is the Safehouse RTM-to-rUSD rate?",
+      "options": [
+        "100:1",
+        "10:1",
+        "1:1",
+        "2:1"
+      ],
+      "answer": 2,
+      "why": "The Safehouse exchanges one RTM for one rUSD in both directions.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-132"
+    },
+    {
+      "q": "Does RTM launch through a traditional token sale according to current tokenomics?",
+      "options": [
+        "Only to validators",
+        "Yes",
+        "No",
+        "Only to advisers"
+      ],
+      "answer": 2,
+      "why": "The tokenomics page says RTM enters circulation through the Safehouse rather than a token sale.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-133"
+    },
+    {
+      "q": "What is the exception to the supply sitting in Safehouse?",
+      "options": [
+        "Founding-node reserve",
+        "Team sale pool",
+        "Marketing mint",
+        "Advisor pool"
+      ],
+      "answer": 0,
+      "why": "A small locked reserve is used to run founding nodes.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-134"
+    },
+    {
+      "q": "Can the founding-node reserve be sold?",
+      "options": [
+        "No",
+        "Only after mainnet",
+        "Only monthly",
+        "Yes"
+      ],
+      "answer": 0,
+      "why": "Retium states the founding-node reserve is locked and can never be sold.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-135"
+    },
+    {
+      "q": "Are validator rewards inflation-based?",
+      "options": [
+        "Only on weekends",
+        "Yes",
+        "Partly minted",
+        "No"
+      ],
+      "answer": 3,
+      "why": "Retium says there are no inflation-based rewards.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-142"
+    },
+    {
+      "q": "Where does validator income come from?",
+      "options": [
+        "Mining subsidy",
+        "New token inflation",
+        "Network fees",
+        "NFT minting only"
+      ],
+      "answer": 2,
+      "why": "Current tokenomics says validator income comes from real network fees.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-143"
+    },
+    {
+      "q": "What percentage of all transaction fees does the Treasury receive?",
+      "options": [
+        "5.5%",
+        "20%",
+        "1%",
+        "10%"
+      ],
+      "answer": 0,
+      "why": "The Treasury receives 5.5% of transaction fees.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-144"
+    },
+    {
+      "q": "What is one purpose of the Treasury?",
+      "options": [
+        "Increase supply",
+        "Run gas auctions",
+        "Choose private keys",
+        "Protocol development"
+      ],
+      "answer": 3,
+      "why": "Treasury funding supports development, security, grants, operations, and long-term programs.",
+      "source": "https://retium.org/tokenomics",
+      "code": "RTM-Q-145"
+    },
+    {
+      "q": "Do Retium testnet coins have monetary value?",
+      "options": [
+        "Only RTM",
+        "Only NFTs",
+        "Yes",
+        "No"
+      ],
+      "answer": 3,
+      "why": "The testnet page states test coins carry no value.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-176"
+    },
+    {
+      "q": "Can testnet RTM be moved to mainnet?",
+      "options": [
+        "Only once",
+        "Yes",
+        "No",
+        "Only by Keepers"
+      ],
+      "answer": 2,
+      "why": "Faucet coins cannot be moved to mainnet.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-177"
+    },
+    {
+      "q": "Can testnet balances be wiped between stages?",
+      "options": [
+        "Yes",
+        "No",
+        "Only validators",
+        "Only NFTs"
+      ],
+      "answer": 0,
+      "why": "Retium warns that balances, NFTs, and history may be reset.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-181"
+    },
+    {
+      "q": "What signing feature is listed for the public wallet?",
+      "options": [
+        "2FA signing",
+        "PoW signing",
+        "Miner signing",
+        "No signing"
+      ],
+      "answer": 0,
+      "why": "The testnet wallet includes 2FA signing.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-184"
+    },
+    {
+      "q": "What connection feature is listed for the wallet?",
+      "options": [
+        "Email connect",
+        "dapp connect",
+        "ASIC connect",
+        "Mining connect"
+      ],
+      "answer": 1,
+      "why": "The wallet includes dapp connect.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-185"
+    },
+    {
+      "q": "How is a wallet key protected on the web wallet?",
+      "options": [
+        "Encrypted with password",
+        "Sent to validators",
+        "Published on-chain",
+        "Stored as plain text"
+      ],
+      "answer": 0,
+      "why": "The wallet page says the key is encrypted with the user's password.",
+      "source": "https://wallet.retium.org/",
+      "code": "RTM-Q-186"
+    },
+    {
+      "q": "What can the Retium NFT launchpad do on testnet?",
+      "options": [
+        "Increase RTM supply",
+        "Mine BTC",
+        "Mint NFTs",
+        "Create forks"
+      ],
+      "answer": 2,
+      "why": "The NFT launchpad supports contract calls, minting, and NFT transfers.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-188"
+    },
+    {
+      "q": "Where do launchpad-minted collections appear in the wallet?",
+      "options": [
+        "Mining tab",
+        "Mempool tab",
+        "NFT tab",
+        "Validator tab"
+      ],
+      "answer": 2,
+      "why": "Collections minted on the launchpad appear in the wallet NFT tab.",
+      "source": "https://retium.org/testnet",
+      "code": "RTM-Q-189"
+    },
+    {
+      "q": "What format can power Retium NFT contracts?",
+      "options": [
+        "Only EVM",
+        "WASM",
+        "Only SQL",
+        "Only HTML"
+      ],
+      "answer": 1,
+      "why": "Game assets and NFTs can be implemented using WASM smart contracts with RCP-1.",
+      "source": "https://retium.org/use-cases",
+      "code": "RTM-Q-190"
+    }
+  ],
+  "security": [
+    {
+      "q": "What keeps validator assignments dynamic and unpredictable?",
+      "options": [
+        "NFT launchpad",
+        "RCP_METADATA",
+        "Safehouse",
+        "Matchmaker"
+      ],
+      "answer": 3,
+      "why": "Matchmaker makes assignments dynamic and unpredictable.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-079"
+    },
+    {
+      "q": "What helps prevent repeated validator grouping?",
+      "options": [
+        "Explorer",
+        "RotationLog",
+        "Safehouse",
+        "RouterHelper"
+      ],
+      "answer": 1,
+      "why": "RotationLog prevents repeated grouping.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-080"
+    },
+    {
+      "q": "What cryptographic signature scheme signs network messages?",
+      "options": [
+        "SHA-1",
+        "Ed25519",
+        "MD5",
+        "RSA-512"
+      ],
+      "answer": 1,
+      "why": "Retium states all network messages are signed with Ed25519.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-081"
+    },
+    {
+      "q": "What checks validator software integrity?",
+      "options": [
+        "Mempool",
+        "Minting",
+        "Gas auction",
+        "Binary attestation"
+      ],
+      "answer": 3,
+      "why": "Binary attestation is used to ensure software integrity.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-082"
+    },
+    {
+      "q": "What mechanism penalizes false votes and malicious behavior?",
+      "options": [
+        "Burn-only routing",
+        "Slashing",
+        "Bridging",
+        "Airdrops"
+      ],
+      "answer": 1,
+      "why": "Slashing penalizes false votes, malicious behavior, and protocol violations.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-083"
+    },
+    {
+      "q": "What does each validator node verify at startup?",
+      "options": [
+        "User password",
+        "Its binary signature",
+        "NFT royalty",
+        "RTM market price"
+      ],
+      "answer": 1,
+      "why": "Each node verifies its own binary signature at startup.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-084"
+    },
+    {
+      "q": "What key is embedded for startup binary verification?",
+      "options": [
+        "Private wallet key",
+        "API password",
+        "Bitcoin seed",
+        "Ed25519 public key"
+      ],
+      "answer": 3,
+      "why": "Validator nodes use an embedded Ed25519 public key to verify the node binary signature.",
+      "source": "https://retium.org/validators",
+      "code": "RTM-Q-085"
+    },
+    {
+      "q": "What contract execution format does Retium use?",
+      "options": [
+        "Python bytecode",
+        "JVM only",
+        "WASM",
+        "EVM only"
+      ],
+      "answer": 2,
+      "why": "Retium uses WebAssembly as its contract execution format.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-146"
+    },
+    {
+      "q": "Which language is recommended for Retium contracts?",
+      "options": [
+        "PHP",
+        "SQL",
+        "Rust",
+        "COBOL"
+      ],
+      "answer": 2,
+      "why": "Rust is recommended due to its toolchain and safety guarantees.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-147"
+    },
+    {
+      "q": "Can languages other than Rust be used if they compile to WASM?",
+      "options": [
+        "No",
+        "Yes",
+        "Only Solidity",
+        "Only C"
+      ],
+      "answer": 1,
+      "why": "Retium is language-agnostic at runtime because contracts compile to WASM.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-148"
+    },
+    {
+      "q": "Which of these is listed as a possible Retium contract language?",
+      "options": [
+        "Bash only",
+        "C++",
+        "HTML",
+        "CSS"
+      ],
+      "answer": 1,
+      "why": "The developer page lists C++ among languages that can compile to WASM.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-149"
+    },
+    {
+      "q": "Which Go variant is mentioned for WASM contracts?",
+      "options": [
+        "GoMax",
+        "GoVM",
+        "TinyGo",
+        "GoChain"
+      ],
+      "answer": 2,
+      "why": "TinyGo is listed as an option for WASM contracts.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-150"
+    },
+    {
+      "q": "What is Retium's unified contract standard?",
+      "options": [
+        "ERC-20",
+        "SPL",
+        "RCP-1",
+        "BEP-20"
+      ],
+      "answer": 2,
+      "why": "Retium uses RCP-1 as a unified contract model.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-151"
+    },
+    {
+      "q": "Is RCP-1 just a traditional token standard?",
+      "options": [
+        "Only for NFTs",
+        "Yes",
+        "Only for stablecoins",
+        "No"
+      ],
+      "answer": 3,
+      "why": "RCP-1 is described as a contract behavior declaration framework.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-152"
+    },
+    {
+      "q": "What trait does every Retium contract implement?",
+      "options": [
+        "RetiumContract",
+        "MeshContract",
+        "ERCContract",
+        "PrimeTrait"
+      ],
+      "answer": 0,
+      "why": "Every contract implements the RetiumContract trait.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-153"
+    },
+    {
+      "q": "Where is RCP-1 metadata embedded?",
+      "options": [
+        "DNS record",
+        "Mempool",
+        "Wallet password",
+        "WASM binary"
+      ],
+      "answer": 3,
+      "why": "Structured RCP-1 metadata is embedded in the compiled WASM binary.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-154"
+    },
+    {
+      "q": "What marker identifies embedded RCP-1 metadata?",
+      "options": [
+        "WASM_INFO",
+        "RCP_METADATA",
+        "RTM_META",
+        "PRIME_TAG"
+      ],
+      "answer": 1,
+      "why": "RCP_METADATA is the metadata marker used in the binary.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-155"
+    },
+    {
+      "q": "What can RCP-1 metadata declare?",
+      "options": [
+        "User password",
+        "Validator IP only",
+        "Contract weight",
+        "RTM market price"
+      ],
+      "answer": 2,
+      "why": "RCP-1 metadata includes declared computational weight.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-156"
+    },
+    {
+      "q": "What is the RCP-1 contract weight range?",
+      "options": [
+        "0–100",
+        "1–3",
+        "1–5",
+        "1–10"
+      ],
+      "answer": 2,
+      "why": "RCP-1 contracts declare a computational weight from 1 to 5.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-157"
+    },
+    {
+      "q": "What else can RCP-1 metadata include besides weight?",
+      "options": [
+        "Behavior flags",
+        "Follower count",
+        "Mining nonce",
+        "Email address"
+      ],
+      "answer": 0,
+      "why": "Metadata includes behavioral traits/capabilities.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-158"
+    },
+    {
+      "q": "What supports contract upgrade history in RCP-1?",
+      "options": [
+        "Mining pool",
+        "Mempool order",
+        "Version chain",
+        "Gas auction"
+      ],
+      "answer": 2,
+      "why": "RCP-1 metadata includes version and evolution chain information.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-159"
+    },
+    {
+      "q": "Can specific contract fields be locked individually?",
+      "options": [
+        "Only NFTs",
+        "No",
+        "Yes",
+        "Only by Workers"
+      ],
+      "answer": 2,
+      "why": "RCP-1 allows specific fields, including logic, to be individually locked.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-160"
+    },
+    {
+      "q": "What happens once a contract field is locked?",
+      "options": [
+        "It cannot be modified",
+        "It becomes cheaper",
+        "It is deleted",
+        "It enters mempool"
+      ],
+      "answer": 0,
+      "why": "Locking is irreversible for the locked field.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-161"
+    },
+    {
+      "q": "What field links a new contract version to the previous one?",
+      "options": [
+        "links_to",
+        "fork_from",
+        "mine_from",
+        "evolves_from"
+      ],
+      "answer": 3,
+      "why": "Versioned evolution uses the evolves_from field.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-162"
+    },
+    {
+      "q": "Is contract state preserved across versions?",
+      "options": [
+        "Only for NFTs",
+        "Yes",
+        "No",
+        "Only on testnet"
+      ],
+      "answer": 1,
+      "why": "Retium says state is preserved across versions, so no migration is required.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-163"
+    },
+    {
+      "q": "Where do Retium contracts execute?",
+      "options": [
+        "Sandbox",
+        "Browser cache",
+        "Host filesystem",
+        "Mempool"
+      ],
+      "answer": 0,
+      "why": "Contracts run in a sandboxed execution environment.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-164"
+    },
+    {
+      "q": "Can contracts directly access the filesystem?",
+      "options": [
+        "Only Rust contracts",
+        "Yes",
+        "No",
+        "Only Keepers"
+      ],
+      "answer": 2,
+      "why": "Sandboxed contracts cannot access the filesystem directly.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-165"
+    },
+    {
+      "q": "Can contracts directly access the network?",
+      "options": [
+        "Only Suits",
+        "Yes",
+        "Only NFTs",
+        "No"
+      ],
+      "answer": 3,
+      "why": "Contracts cannot directly access the network.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-166"
+    },
+    {
+      "q": "Can contracts directly access node internals?",
+      "options": [
+        "No",
+        "Only with Pie",
+        "Yes",
+        "Only in RCP-1 v2"
+      ],
+      "answer": 0,
+      "why": "Contracts interact through controlled host functions instead.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-167"
+    },
+    {
+      "q": "Which host function reads contract state?",
+      "options": [
+        "read_state",
+        "read_disk",
+        "fetch_node",
+        "get_chain"
+      ],
+      "answer": 0,
+      "why": "Retium lists read_state as a controlled host function.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-168"
+    },
+    {
+      "q": "Which host function writes contract state?",
+      "options": [
+        "push_chain",
+        "set_node",
+        "write_state",
+        "save_disk"
+      ],
+      "answer": 2,
+      "why": "Retium lists write_state as a controlled host function.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-169"
+    },
+    {
+      "q": "What execution property should identical inputs and state produce?",
+      "options": [
+        "Identical results",
+        "Random results",
+        "Variable supply",
+        "Different forks"
+      ],
+      "answer": 0,
+      "why": "Retium's contract layer is designed for deterministic execution.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-170"
+    },
+    {
+      "q": "What powers the Retium Virtual Machine?",
+      "options": [
+        "EVM",
+        "Node.js",
+        "Wasmtime",
+        "JVM"
+      ],
+      "answer": 2,
+      "why": "The RVM uses the Wasmtime WebAssembly runtime.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-171"
+    },
+    {
+      "q": "Who develops Wasmtime?",
+      "options": [
+        "Retium Treasury",
+        "Ethereum Foundation",
+        "Linux Foundation only",
+        "Bytecode Alliance"
+      ],
+      "answer": 3,
+      "why": "Wasmtime is a production-grade runtime developed by the Bytecode Alliance.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-172"
+    },
+    {
+      "q": "What is the fuel limit per contract invocation?",
+      "options": [
+        "1 million",
+        "10 million",
+        "100 million instructions",
+        "1 billion"
+      ],
+      "answer": 2,
+      "why": "Each contract invocation has a 100M-instruction fuel limit.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-173"
+    },
+    {
+      "q": "What happens when contract fuel runs out?",
+      "options": [
+        "RTM supply increases",
+        "Transaction rolls back",
+        "Block forks",
+        "Wallet is deleted"
+      ],
+      "answer": 1,
+      "why": "The runtime traps and the transaction is rolled back when fuel is exhausted.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-174"
+    },
+    {
+      "q": "What target is used when compiling a Rust contract to WASM?",
+      "options": [
+        "x86_64-linux",
+        "evm32-mainnet",
+        "arm64-ios",
+        "wasm32-unknown-unknown"
+      ],
+      "answer": 3,
+      "why": "Retium's developer workflow compiles Rust to wasm32-unknown-unknown.",
+      "source": "https://retium.org/developers",
+      "code": "RTM-Q-175"
+    }
+  ]
+}
