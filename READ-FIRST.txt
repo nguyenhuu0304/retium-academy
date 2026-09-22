@@ -1,0 +1,1 @@
+TEST BUILD ONLY. Do not deploy to Vercel. Run SQL-SECURE-QUIZ.sql once in Supabase SQL Editor, then copy app/ files to local project preserving paths. Existing quiz answers remain in client bundle; not secure for rewarded quizzes. npm build not verified in this environment. Keep a backup.

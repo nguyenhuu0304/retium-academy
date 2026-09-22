@@ -1,0 +1,3 @@
+import {NextResponse} from 'next/server';
+import {cookieOptions,nonce,origin,seal} from '../../../../lib/discord';
+export async function GET(){try{const state=nonce();const u=new URL('https://discord.com/oauth2/authorize');u.searchParams.set('client_id',process.env.DISCORD_CLIENT_ID||'');u.searchParams.set('redirect_uri',`${origin()}/api/auth/callback`);u.searchParams.set('response_type','code');u.searchParams.set('scope','identify guilds');u.searchParams.set('state',state);const r=NextResponse.redirect(u);r.cookies.set('ra_oauth_state',seal({state,exp:Date.now()+600000}),{...cookieOptions,maxAge:600});return r}catch{return NextResponse.json({error:'Discord login is not configured'},{status:503})}}
